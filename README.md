@@ -9,7 +9,9 @@ enabling airlines in revenue management.
 This project aims to develop a model that can accurately predict air ticket prices. The primary
 objective is to provide insights into the factors influencing ticket prices and offer a tool that
 can aid in forecasting future airfares, ultimately assisting consumers.
+
 DATA DESCRIPTION
+
 The collection of data is the very first step in every project. There are various sources
 of data available on numerous websites, but we have gathered our data from a hackathon by
 ProjectPro. The dataset contains 45000 rows of data and 19 features. The features present in
@@ -19,8 +21,11 @@ Duration, Aircraft Type, Number of Stops, and the Day of Week and Month of Trave
 Additional factors such as Holiday Season, Demand, Weather Conditions, Passenger Count,
 Promotion Type, Fuel Price, and the Flight Price itself are provided, offering a comprehensive
 view of the variables influencing flight operations and pricing.
+
 DATASET LINK : https://www.projectpro.io/hackathon/title/hackathon-datascienceregression-rewards-prize
+
 EXPLORATORY DATA ANALYSIS
+
 In the initial phase of my data exploration, we began by extracting the pertinent dataset and
 initializing a Spark session to facilitate the handling of large-scale data processing. Once the
 data was loaded into a dataframe, we have seen there are a significant number of null entries.
